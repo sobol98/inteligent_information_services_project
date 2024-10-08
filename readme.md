@@ -144,7 +144,6 @@ pip install -r requirements-dev.txt
 │ requirements-dev.txt - The compiled and pinned versions of all development dependencies.  
 │ requirements.in - Lists the main dependencies required for the project in production.  
 │ requirements.txt - The compiled and pinned versions of all production dependencies.  
-│ run.sh - Script to start the Docker Container   
 └───src - Contains the source code for the service  
 
 ## FastAPI
