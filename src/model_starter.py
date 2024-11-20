@@ -67,9 +67,10 @@ def predict_words(message: str, max_length=20):
         )
 
     prediction = tokenizer.decode(output[0], skip_special_tokens=True).split()
-
-    return prediction
-    # return [word for word in prediction if word.startswith(message.strip())]
+    print(prediction)
+    # return prediction
+    
+    return [word for word in prediction if word.startswith(message.strip())][:max_length]
 
     # predictions = []
     # for gen_output in output:
@@ -82,14 +83,14 @@ def predict_words(message: str, max_length=20):
 
 # -------------------------------------------------------------------------------
 
-prefix = 'mon'
-num_test = 1
+# prefix = 'mon'
+# num_test = 1
 
-for _ in range(num_test):
-    start_test = time()
-    print(predict_words(prefix))
-    end_test = time()
-    print(f'Time taken for signle iteration (ms): {1000*(end_test-start_test)}')
+# for _ in range(num_test):
+#     start_test = time()
+#     print(predict_words(prefix))
+#     end_test = time()
+#     print(f'Time taken for signle iteration (ms): {1000*(end_test-start_test)}')
 
 # #end time
 

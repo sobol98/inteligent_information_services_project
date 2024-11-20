@@ -2,6 +2,8 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 
 from src.model_starter import predict_words
+from typing import List
+
 
 router = APIRouter(
     prefix='/model',
@@ -19,6 +21,7 @@ class PredictionRequest(BaseModel):
     """
 
     text: str
+    predictions: List[str]
 
 
 @router.post(
@@ -27,7 +30,7 @@ class PredictionRequest(BaseModel):
     description='Returns word predictions based on the provided input text.',
     response_model=PredictionRequest,
 )
-def get_word_predictions(prefix: str):
+async def get_word_predictions(prefix: str):
     """Retrieves word predictions based on the given prefix.
 
     Args:
@@ -37,4 +40,4 @@ def get_word_predictions(prefix: str):
         dict: A dictionary containing the word predictions.
     """
     predictions = predict_words(prefix)
-    return {'predictions': predictions}
+    return PredictionRequest(text= prefix, predictions=predictions)
