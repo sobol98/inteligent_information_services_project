@@ -2,8 +2,11 @@ from fastapi import FastAPI
 
 from .routers import example
 
+# import uvicorn # for testing 
+
+
 app = FastAPI(
-    title='renameme',
+    title='word_prediction',
     description='Fill the description',
     version='0.1',
 )

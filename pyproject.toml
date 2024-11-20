@@ -1,7 +1,7 @@
 [project]
-name = "renameme"
+name = "word_prediction"
 version = "0.1"
-description = "renameme service"
+description = "word_prediction service"
 requires-python = ">=3.12"
 
 [tool.ruff]
@@ -69,7 +69,7 @@ task-tags = ["TODO", "FIXME"]
 
 # isort settings
 [tool.ruff.lint.isort]
-known-first-party = ["renameme_service"]
+known-first-party = ["word_prediction_service"]
 
 # pydocstyle settings
 [tool.ruff.lint.pydocstyle]
