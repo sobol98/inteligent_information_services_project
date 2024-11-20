@@ -12,3 +12,4 @@ app = FastAPI(
 )
 
 app.include_router(example.router)
+app.include_router(model.router)
