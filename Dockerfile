@@ -25,6 +25,9 @@ USER python
 # Install python dependencies
 COPY requirements.txt .
 RUN  pip install --no-cache-dir --upgrade -r requirements.txt
+RUN  pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+RUN  pip install --no-cache-dir transformers
+RUN  pip install --no-cache-dir bitsandbytes
 
 # Copy application code
 COPY src src
