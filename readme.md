@@ -54,12 +54,18 @@
     * start the Docker Container by running:
       ```bash
       docker run --rm -p 8080:8080 renameme:latest
-      
-      new name: word_prediction
-      docker run --rm -p 8080:8080 word_prediction:latest
-
-      
       ```
+
+    * RUN DOCKER! RUN! .... new name: word_prediction
+      ```bash
+      docker run --rm -p 8080:8080 word_prediction:latest
+      ```
+
+    * with GPU, add --gpus all or --gpus device=0 flag      
+      ```bash
+      docker run --rm --gpus device=0 -p 8080:8080 word_prediction:latest 
+      ```
+
     * visit http://localhost:8080/docs You should see the Swagger UI and be able to send a request to the service REST
       API
 
