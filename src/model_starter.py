@@ -1,18 +1,26 @@
 from time import time
 
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, set_seed
+
+set_seed(42)
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
-# start time
+
 start = time()
 
-model_name = 'TinyLlama/TinyLlama-1.1B-Chat-v1.0'
-# model_name='distilgpt2'
+model_name_list = [
+    'TinyLlama/TinyLlama-1.1B-Chat-v1.0',
+    'mistralai/Mistral-7B-v0.1',
+    'distilbert/distilgpt2',
+    'gpt2',
+    'tiiuae/falcon-rw-1b',
+]
 
-# model = transformers.AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16)
-# model = model.to(device)
+number = 5
+model_name = model_name_list[number - 1]
+print(model_name)
 
 quantization_config = BitsAndBytesConfig(
     load_in_4bit=True, bnb_4bit_quant_type='nf4', bnb_4bit_compute_dtype=torch.bfloat16
@@ -24,12 +32,12 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map=device,
 )
 
-
 model.eval()
 model = torch.compile(model)
 
-tokenizer = AutoTokenizer.from_pretrained(model_name)
 
+tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side='left')
+tokenizer.pad_token = tokenizer.eos_token
 
 # total_params = sum(p.numel() for p in model.parameters())
 # print(f"Number of parameters: {total_params}")
@@ -54,23 +62,34 @@ def predict_words(message: str, max_length=20):
     if not message.endswith(' '):
         message += ' '
 
-    input_ids = tokenizer(message, return_tensors='pt').input_ids.to(device)
+    # tokenizer.pad_token = tokenizer.eos_token
+    input = tokenizer(message, padding=True, return_tensors='pt').to(device)
+    set_seed(42)
+
+    # Tokeny do zakończenia generowania
+    # eos_token = tokenizer.encode(".")[0]  # Kropka
+    # exclamation_token = tokenizer.encode("!")[0]  # Wykrzyknik
 
     with torch.no_grad():
         output = model.generate(
-            input_ids,
-            max_length=len(input_ids[0]) + max_length,
+            **input,
+            max_length=len(input['input_ids'][0]) + max_length,
             do_sample=True,
             top_p=0.85,
-            top_k=30,
-            temperature=1.5,
+            top_k=50,
+            num_return_sequences=1,
+            temperature=0.8,
+            pad_token_id=tokenizer.pad_token_id,
+            repetition_penalty=1.1,
+            # eos_token_id=[eos_token, exclamation_token],  # stop after . or !
         )
 
     prediction = tokenizer.decode(output[0], skip_special_tokens=True).split()
     print(prediction)
-    # return prediction
-    
-    return [word for word in prediction if word.startswith(message.strip())][:max_length]
+
+    return prediction
+
+    # return [word for word in prediction if word.startswith(message.strip())][:max_length]
 
     # predictions = []
     # for gen_output in output:
@@ -83,7 +102,7 @@ def predict_words(message: str, max_length=20):
 
 # -------------------------------------------------------------------------------
 
-# prefix = 'mon'
+# prefix = 'I see beautiful '
 # num_test = 1
 
 # for _ in range(num_test):

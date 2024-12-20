@@ -5,6 +5,8 @@ Addidtional libraries:
 - transformers
 - bitsandbytes
 - accelerate
+- pip install -U scikit-learn
+- pip install datasets
 
 
 # Documentation:
@@ -14,7 +16,46 @@ https://docs.google.com/document/d/1iFZkIRQ7qxilfz0paxmxlEf2yeEWH8J9lVoRb3sGOBg/
 
 
 # Word prediction service based on LLM
-- Create a small service based on Hugging Face Transfomers, that is focused on high performance (throughput) and low latency (responsiveness). The project should use a possibly small LLM to ensure satisfactory results. To this end, it is necessary to develop an appropriate evaluation metric, such as perplexity or accuracy, to measure the quality of the model's performance.
+Create a small service based on Hugging Face Transfomers, that is focused on high performance (throughput) and low latency (responsiveness). The project should use a possibly small LLM to ensure satisfactory results. To this end, it is necessary to develop an appropriate evaluation metric, such as perplexity or accuracy, to measure the quality of the model's performance.
+
+
+1. Presentation of the application prototype (16.12.2024 - 20.12.2024): present a working prototype of the service with basic functionalities.
+1. Presentation of the finished application (20.01.2025 - 24.01.2025): present the finished application, including tests to validate the quality of the service
+1. Project report (27.01.2025 - 30.01.2025): describe test results, how the application works, how to run it, and the scalability and reliability of the service 
+
+Uploading to enauczanie.pg.edu.pl the code and project report. The report should include:
+- A description of how the service works
+- A description of the libraries and data used
+- A description of how the service runs
+- A description of the scalability and reliability of the service.
+- Quality test results
+
+Passing criteria
+· Each stage must be completed and presented no later than the specified date.
+· Attendance of all group members at stage presentation meetings is mandatory. Unexcused absence will result in failure of the stage by the absent student.
+· The final grade for the project is the average of the grades for each stage (stages 2 through 5).
+
+
+
+
+# model_name='distilgpt2'
+
+# llama 3.2B
+
+# metrics for model na eval
+# perplexity
+# bleu score
+# czas generowania
+
+# optymalzacja
+# batchowanie
+# flash attenction (jak z kwantyzacja)
+# torchscript
+
+
+# cashwanie promptow hugging face kv- cashe'ing
+
+
 
 
 
