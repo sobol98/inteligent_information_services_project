@@ -73,6 +73,8 @@ ValueError: Unrecognized model in tensorblock/TinyLlama-1.1B-intermediate-step-1
 
 
 
+Portugal is a country in
+
 
 Prompts:
 Long mathematical equ
@@ -105,3 +107,75 @@ Response body
     "any"
   ]
 }
+
+
+
+
+
+
+
+
+
+secure for multiusers case
+
+
+
+
+
+batching
+
+
+multiple messages at once
+
+
+
+
+
+
+For 5, extra thing:
+
+
+
+ollama or lamacpp
+https://github.com/ollama/ollama
+
+
+
+faster than hugging face, we need to check how much faster is it (compare with hugging face (our app))
+for single user (with and without batching)
+
+
+the same performance test,
++ sanity check (correctly output)
+How much ollama will be faster than our solution\dots
+
+
+
+Inputs with different lenght. 
+
+using ollama server
+
+
+
+
+Sweden is a country in Europe. USA is a country in 
+
+
+
+
+
+
+TEST:
+
+
+"The quick brown fox",
+"Artificial intelligence is evolving",
+"Machine learning can solve problems",
+"Data science is a field",
+"Natural language processing advances rapidly",
+"Deep learning algorithms are powerful",
+"Large language models are complex",
+"The future of AI is bright",
+"Technology shapes the world around",
+"Computers are getting faster every year",
+"Scientists are making breakthrough discoveries",
