@@ -5,7 +5,7 @@ import random
 import torch
 import statistics
 import os
-os.system('nvidia-smi')
+# os.system('nvidia-smi')
 
 class PredictionClient:
     def __init__(self, base_url: str = "http://localhost:8000"):
@@ -24,7 +24,6 @@ class PredictionClient:
                 
                 vram_after = torch.cuda.memory_allocated() / 1024 / 1024
                 self.vram_measurements.append(vram_after - vram_before)
-                print(f"Memory cashed: {torch.cuda.memory_reserved() / 1024 / 1024:.2f} MB")
 
                 result = await response.json()
                 result['vram_delta'] = vram_after - vram_before
@@ -63,24 +62,48 @@ async def main():
     
     # Generate test texts
     test_texts = [
-        "Once upon a time",
-        "In a world where",
-        "The future of technology",
-        "Machine learning is",
-        "Artificial intelligence will",
-        "Quantum computing is",
-        "Climate change is",
-        "Renewable energy is"
+        # "Once upon a time",
+        # "In a world where",
+        # "The future of technology",
+        # "Machine learning is",
+        # "Artificial intelligence will",
+        # "Quantum computing is",
+        # "Climate change is",
+        # "Renewable energy is",
+        
+        "What is the weather today?",
+        "Tell me a fun joke.",
+        "How to solve math problems?",
+        "Explain quantum computing simply.",
+        "What's your favorite color?",
+        "Give me a travel tip.",
+        "How does a rocket fly?",
+        "What's the capital of Japan?",
+        "Name a good movie.",
+        "What’s your opinion on AI?",
+        "Explain the theory of relativity.",
+        "How does the internet work?",
+        "Describe the Eiffel Tower.",
+        "Give me a life tip.",
+        "What is a black hole?",
+        "How do plants grow?",
+        "Why is the sky blue?",
+        "What is machine learning?",
+        "Give me a productivity hack.",
+        "Why is water important?",
+        "How do airplanes stay up?",
+        "What is artificial intelligence?"
+        
     ]
     
     try:
         # Test single prediction
-        print("Single Prediction Test:")
-        single_result = await client.predict(test_texts[0])
-        print(f"Input: {single_result['text']}")
-        print(f"Prediction: {single_result['prediction']}")
-        print(f"Timestamp: {single_result['timestamp']}")
-        print(f"VRAM Delta: {single_result['vram_delta']:.2f} MB")
+        # print("Single Prediction Test:")
+        # single_result = await client.predict(test_texts[0])
+        # print(f"Input: {single_result['text']}")
+        # print(f"Prediction: {single_result['prediction']}")
+        # print(f"Timestamp: {single_result['timestamp']}")
+        # print(f"VRAM Delta: {single_result['vram_delta']:.2f} MB")
         
                 
         # Test concurrent predictions
@@ -110,8 +133,8 @@ async def main():
         print(f"Avg Time per Request: {concurrent_results['avg_time_per_request']:.4f}s")
         
         
-        print(f"Memory cashed: {torch.cuda.memory_reserved() / 1024 / 1024:.2f} MB")
-        print(f"Memory allocated: {torch.cuda.get_device_properties(0).total_memory / 1024 / 1024:.2f} MB")
+        # print(f"Memory cashed: {torch.cuda.memory_reserved() / 1024 / 1024:.2f} MB")
+        # print(f"Memory allocated: {torch.cuda.get_device_properties(0).total_memory / 1024 / 1024:.2f} MB")
         
     except Exception as e:
         print(f"Error: {e}")

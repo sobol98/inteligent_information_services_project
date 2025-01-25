@@ -26,9 +26,11 @@ MODEL_NAMES = {
     5: 'gpt2-large',
     6: 'tiiuae/falcon-rw-1b',
     7: 'PY007/TinyLlama-1.1B-step-50K-105b',
-    8: 'mistralai/Mistral-7B-v0.1', 
+    8: 'NousResearch/Llama-2-7b-chat-hf',
+    
 }
-MODEL_NAME = MODEL_NAMES[3]
+
+MODEL_NAME = MODEL_NAMES[4]
 BATCH_SIZE = 5
 MAX_QUEUE_SIZE = 100
 BATCH_WAIT_TIMEOUT = 1.0  # seconds
@@ -69,7 +71,7 @@ class ModelManager:
 
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_name,
-                quantization_config=quantization_config,
+                # quantization_config=quantization_config,
                 device_map=self.device,
             )
             self.model.eval()
@@ -133,6 +135,8 @@ class ModelManager:
                 # Process batch
                 if batch:
                     inputs = [item['text'] for item in batch]
+                    # await asyncio.sleep(2)
+                    # logging.info(f"Processing batch: {inputs}")
                     predictions = await self.predict_batch(inputs)
                     
                     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S:%f")[:-3] 
