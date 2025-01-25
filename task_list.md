@@ -178,4 +178,57 @@ TEST:
 "The future of AI is bright",
 "Technology shapes the world around",
 "Computers are getting faster every year",
-"Scientists are making breakthrough discoveries",
+"Scientists are making breakthrough discoveries"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"text":"Capitol of Portugal is ","prediction":"one of the most powerful and influential political systems in all Europe. It was founded by two kings who had built it, one from each side;","timestamp":
+"2025-01-24 23:37:30:032"}
+
+{"text":"Capitol of Portugal is ","prediction":"(right) the largest city in central Europe. It was founded and developed by Portuguese immigrants who arrived from south to north, as well as with","timestamp":
+"2025-01-24 23:37:28:772"}
+
+{"text":"Capitol of Portugal is ","prediction":"iced and ready to go for people in a city like Lisbon, we need you.\n\n\nWhen I was growing up it turned out that there were","timestamp":
+"2025-01-24 23:37:30:032"}
+
+{"text":"Capitol of Portugal is ","prediction":"only a few miles away from the United States. Even though it's not all that far, there are many other places in Russia and I believe","timestamp":
+"2025-01-24 23:37:28:772"}
+
+{"text":"Capitol of Portugal is ","prediction":"a place where people are able to express their opinions in a safe and friendly environment. The Embassy has been doing what it can for over 5 years","timestamp":
+"2025-01-24 23:37:30:032"}
+
+{"text":"Capitol of Portugal is ","prediction":"in the process. The first thing that comes to mind when you think of this place, it's Portuguese cuisine:  \nThe famous Colombo","timestamp":
+"2025-01-24 23:37:28:772"}
+
+{"text":"Capitol of Portugal is ","prediction":"a very small place, a few hours walk from Porto. There are no cars or restaurants in the area except for one hotel where you can","timestamp":
+"2025-01-24 23:37:28:772"}
+
+{"text":"Capitol of Portugal is ","prediction":"an important part.\nThis isn't the first time that a Portuguese coffee shop has been caught with its own cupcake, and it's not","timestamp":
+"2025-01-24 23:37:30:032"}
+
+{"text":"Capitol of Portugal is ","prediction":"the one to say that he's already sold out, and will be happy with this:\nI'll tell you what if I could come back" "timestamp":
+"2025-01-24 23:37:30:581"}
+
+{"text":"Capitol of Portugal is ","prediction":"the largest city in Spain, and the capital from which it derives its name.  \nThis means that I've come to believe Portuguese would be","timestamp":
+"2025-01-24 23:37:31:730"}
+
+{"text":"Capitol of Portugal is ","prediction":"having a very real impact on the economy, because it has brought about major investments in new energy infrastructure. For example, we have to invest more","timestamp":
+"2025-01-24 23:37:31:730"}
+
+
+
+
+

@@ -5,6 +5,11 @@ import asyncio
 from uuid import uuid4
 import logging
 from datetime import datetime
+# import torch._dynamo
+# torch._dynamo.config.suppress_errors = True
+
+# torch._dynamo.disable()
+
 # import flash_attn
 # from flash_attn.flash_attention import flash_attention
 
@@ -28,23 +33,25 @@ MODEL_NAMES = {
     3: 'gpt2',
     4: 'gpt2-medium',
     5: 'gpt2-large',
-    6: 'tiiuae/falcon-rw-1b'
+    6: 'tiiuae/falcon-rw-1b',
+    7: 'PY007/TinyLlama-1.1B-step-50K-105b',
+    8: 'mistralai/Mistral-7B-v0.1', 
 }
 
 
-number = 4  # Wybierz model z listy
-model_name = MODEL_NAMES[number - 1]
+number = 3 # Wybierz model z listy
+model_name = MODEL_NAMES[number]
 print(f"Loading model: {model_name}")
 
 
-# quantization_config = BitsAndBytesConfig(
-#     load_in_4bit=False, bnb_4bit_quant_type='nf4', bnb_4bit_compute_dtype=torch.bfloat16
-# )
+quantization_config = BitsAndBytesConfig(
+    load_in_4bit=False, bnb_4bit_quant_type='nf4', bnb_4bit_compute_dtype=torch.bfloat16
+)
 
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    # quantization_config=quantization_config,
+    quantization_config=quantization_config,
     device_map=device,
 )
 
@@ -99,8 +106,6 @@ async def predict_words(messages: list[str], max_length=30):
     """
     
     results = []
-    
-
     input = tokenizer(messages, padding=True, return_tensors='pt').to(device)
 
 
@@ -111,67 +116,20 @@ async def predict_words(messages: list[str], max_length=30):
             do_sample=True,
             temperature=0.7,
             top_k=50,
-            num_beams=5,
+            num_beams=3,
             num_return_sequences=1,
             pad_token_id=tokenizer.pad_token_id,
             repetition_penalty=1.1,
         )
 
 
-    
+    decoded_predictions = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+    results.append(decoded_predictions)
 
-
-
-    # prediction = [tokenizer.decode(output[0], skip_special_tokens=True).split() for output in outputs]
-    prediction = [tokenizer.decode(output, skip_special_tokens=True) for output in outputs]
-    #   prediction = tokenizer.decode(output, skip_special_tokens=True).split() 
-
-    for idx, p in enumerate(prediction):
+    for idx, p in enumerate(decoded_predictions):
         if p.startswith(messages[idx]):
-            prediction[idx] = p[len(messages[idx]):].strip()  # Usunięcie wspólnej części wejścia
+            decoded_predictions[idx] = p[len(messages[idx]):].strip()  # Usunięcie wspólnej części wejścia
 
-        
-        
-        results.append(prediction)
-        # print(prediction)
-
-        # memory_usage()
-    
-    
-    # Calculate loss and accuracy for each prediction
-    all_losses = []
-    all_accuracies = []
-    
-    
-    for idx, p in enumerate(prediction):
-        if p.startswith(messages[idx]):
-            prediction[idx] = p[len(messages[idx]):].strip()  # Usunięcie wspólnej części wejścia
-        
-        # Obliczanie straty (loss) dla wygenerowanego tekstu
-        target_ids = tokenizer(messages[idx], return_tensors="pt").input_ids.to(device)
-        logits = model(input_ids=input['input_ids'].to(device)).logits
-
-        # Obliczanie straty
-        loss_fn = torch.nn.CrossEntropyLoss()
-        loss = loss_fn(logits.view(-1, logits.size(-1)), target_ids.view(-1))
-        perplexity = calculate_perplexity(loss)
-        accuracy = calculate_accuracy(logits, target_ids)
-
-        # Drukowanie metryk
-        logging.info(f"Perplexity: {perplexity.item()}, Accuracy: {accuracy}")
-
-        # Dodanie metryk do wyników
-        all_losses.append(perplexity.item())
-        all_accuracies.append(accuracy)
-    
-            # Średnia z metryk
-        avg_perplexity = sum(all_losses) / len(all_losses) if all_losses else None
-        avg_accuracy = sum(all_accuracies) / len(all_accuracies) if all_accuracies else None
-
-        logging.info(f"Average Perplexity: {avg_perplexity}")
-        logging.info(f"Average Accuracy: {avg_accuracy}")
-    
-    
     return results
 
 

@@ -1,0 +1,6 @@
+Load Test Metrics:
+total_tests: 4
+failures: 0
+errors: 0
+skipped: 0
+vram_usage_mb: 0.0
