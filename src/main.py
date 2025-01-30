@@ -15,13 +15,12 @@ MODEL_NAMES = {
     3: 'gpt2',
     4: 'gpt2-medium',
     5: 'gpt2-large',
-    6: 'tiiuae/falcon-rw-1b',
-    7: 'PY007/TinyLlama-1.1B-step-50K-105b',
-    8: 'NousResearch/Llama-2-7b-chat-hf',
-    
+    6: 'tiiuae/falcon-rw-1b',  # compare with ollama
+    7: 'meta-llama/Llama-3.2-1B', # compare with ollama
+    8: 'Qwen/Qwen2.5-1.5B', # compare with ollama    
 }
 
-MODEL_NAME = MODEL_NAMES[4]
+MODEL_NAME = MODEL_NAMES[6]
 
 
 # Global model manager

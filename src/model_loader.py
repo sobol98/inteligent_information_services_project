@@ -50,14 +50,14 @@ class ModelManager:
         """Load model during application startup"""
         try:
             quantization_config = BitsAndBytesConfig(
-                load_in_4bit=False, 
+                load_in_4bit=True, 
                 bnb_4bit_quant_type='nf4', 
                 bnb_4bit_compute_dtype=torch.bfloat16
             )
 
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_name,
-                # quantization_config=quantization_config,
+                quantization_config=quantization_config,
                 device_map=self.device,
             )
             self.model.eval()
