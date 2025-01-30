@@ -1,9 +1,9 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from src.routers.model import predict_words
+from inteligent_information_services_project.src.legacy.routers.model import predict_words
 from datetime import datetime
 import asyncio
-from src.routers.model import process_batch
+from inteligent_information_services_project.src.legacy.routers.model import process_batch
 
 
 
