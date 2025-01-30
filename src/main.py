@@ -20,7 +20,7 @@ MODEL_NAMES = {
     8: 'Qwen/Qwen2.5-1.5B', # compare with ollama    
 }
 
-MODEL_NAME = MODEL_NAMES[6]
+MODEL_NAME = MODEL_NAMES[8]
 
 
 # Global model manager

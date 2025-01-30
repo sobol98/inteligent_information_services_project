@@ -1,0 +1,263 @@
+{
+  "model": "qwen2:1.5b",
+  "results": [
+    {
+      "text": "Once upon a time",
+      "prediction": "Sure, I'd be happy to help answer any questions or tell you a story! Please let me know what you need assistance with.",
+      "timestamp": "2025-01-30 23:31:15",
+      "response_time": 1.6982216835021973,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "In a world where",
+      "prediction": "It seems like you might be referring to a hypothetical or speculative world. Could you please provide more context or details so I can assist you better?",
+      "timestamp": "2025-01-30 23:31:15",
+      "response_time": 1.645000696182251,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "The future of technology",
+      "prediction": "Technology is continuously evolving and changing the way we live, work, and interact with each other. Here are some key trends that anticipate major developments in the next few years:\n\n1. **Artificial Intelligence (AI) & Machine Learning**: AI technologies will continue to become more advanced, allowing machines to perform tasks previously reserved for human beings. This includes areas like virtual personal assistants, smart home automation systems, and predictive analytics.\n\n2. **5G Network Technology**: 5G networks are expected to provide",
+      "timestamp": "2025-01-30 23:31:23",
+      "response_time": 10.006397247314453,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Machine learning is",
+      "prediction": "a subfield of artificial intelligence concerned with creating systems that can learn based on data, without being explicitly programmed. Machine learning algorithms analyze large datasets and use statistical analysis to identify patterns or features in the data, which are then used to make predictions or classifications about new instances not seen before. This process is often referred to as \"supervised learning\" or \"unsupervised learning\". Machine learning has numerous applications across various industries, including but not limited to: image recognition and computer vision, natural language processing",
+      "timestamp": "2025-01-30 23:31:18",
+      "response_time": 5.071570873260498,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Artificial intelligence will",
+      "prediction": "AI is a field of study that aims to create machines or systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. Some specific areas within AI include machine learning (automating the process of training algorithms to improve accuracy), deep learning (a subset of machine learning focused on neural networks that are particularly effective at recognizing patterns in data), natural language processing (the ability of computers to understand and generate human languages), and robotics. In recent",
+      "timestamp": "2025-01-30 23:31:18",
+      "response_time": 5.01742696762085,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Quantum computing is",
+      "prediction": "Quantum computing is a type of computing that uses quantum mechanics, the branch of physics that studies matter at the atomic and subatomic scale, to process information. Quantum computers use quantum bits (qubits) instead of classical bits to store and process data, potentially making them capable of performing certain tasks much faster than classical computers. These calculations rely on principles such as superposition and entanglement, where qubits can exist in multiple states simultaneously or be directly linked to each other across vast distances, allowing",
+      "timestamp": "2025-01-30 23:31:24",
+      "response_time": 10.975250959396362,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Climate change is",
+      "prediction": "a global environmental phenomenon that occurs when the Earth's climate or weather patterns deviate from their average state due to various factors such as human activities, natural processes and shifts in the planet's orbit. It can be caused by greenhouse gases emitted by burning fossil fuels, deforestation, and other forms of industrialization.\n\nThe consequences of climate change are widespread and far-reaching, impacting not just the Earth's ecosystems but also its inhabitants and society. Some key impacts include:\n\n1. **Melting Ice**: Leading",
+      "timestamp": "2025-01-30 23:31:23",
+      "response_time": 9.970443725585938,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Renewable energy is",
+      "prediction": "renewable energy refers to sources of energy that are generated and used repeatedly, rather than being exhausted. Some examples include hydroelectricity (from water), solar power (from the sun), wind power (from air), geothermal energy (from the earth's interior), biomass (from organic matter) and tidal power (from ocean tides). Renewable energy is important for reducing greenhouse gas emissions and combating climate change, as it can produce electricity without emitting pollutants.",
+      "timestamp": "2025-01-30 23:31:19",
+      "response_time": 6.072602987289429,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "The history of the world",
+      "prediction": "The history of the world is a vast and complex topic, spanning across thousands of years and covering every continent. The story of humanity begins with the emergence of Homo sapiens around 200,000 years ago in Africa, culminating in today's globalized society.\n\n### Ancient Civilizations\n\n- **Ancient Egypt**: Founded circa 3100 BC, known for its civilization and accomplishments in science, architecture, literature, art, and mathematics. Pharaohs were often",
+      "timestamp": "2025-01-30 23:31:20",
+      "response_time": 6.372517108917236,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "My mother is a doctor",
+      "prediction": "That's great! How can I assist you with your mother? Is there anything specific you need help with regarding her work or medical expertise?",
+      "timestamp": "2025-01-30 23:31:21",
+      "response_time": 7.871285676956177,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "My father is a teacher",
+      "prediction": "That's great! Teachers play such an important role in shaping the future of students. How can I assist you with your father's teaching activities or any related tasks?",
+      "timestamp": "2025-01-30 23:31:25",
+      "response_time": 9.987098693847656,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "One day I bought a red",
+      "prediction": "I'm sorry, but your message is incomplete. Could you please provide more information or context? It seems like you've mentioned something about buying something, but not what it is. If you could provide more details or clarify your question, I would be happy to assist further!",
+      "timestamp": "2025-01-30 23:31:24",
+      "response_time": 9.057812452316284,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Lisbon is the capital of",
+      "prediction": "Portugal.",
+      "timestamp": "2025-01-30 23:31:23",
+      "response_time": 5.180033206939697,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Washington is the capital of",
+      "prediction": "United States.",
+      "timestamp": "2025-01-30 23:31:24",
+      "response_time": 5.4147560596466064,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "The capital of France is",
+      "prediction": "Paris.",
+      "timestamp": "2025-01-30 23:31:24",
+      "response_time": 4.595318555831909,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Ancient Rome was a",
+      "prediction": "ancient civilization that flourished in the northern half of Italy from 284 BC until 395 AD. It is best known for its cultural achievements, which include art, architecture, philosophy, and engineering, as well as significant military conquests and political developments. The city of Rome was the capital of the Roman Empire during most of this period, and it played a pivotal role in shaping European history.\n\nSome key aspects of Ancient Rome include:\n\n1. **Pompeii and",
+      "timestamp": "2025-01-30 23:31:29",
+      "response_time": 9.214308977127075,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Print function in Python is used to",
+      "prediction": "print() function in Python is a built-in function that displays the output of the given statement or expression on the screen. It is commonly used to print text, numbers, and variables to the console or output device (such as a printer) connected to your computer.\n\nHere are some common uses of print() in Python:\n\n1. **Displaying Text**:\n   ```python\n   print(\"Hello, World!\")\n   ```\n   \n2. **Displaying Numbers**:\n   ```python\n   num",
+      "timestamp": "2025-01-30 23:31:29",
+      "response_time": 7.7152721881866455,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "The most popular programming language is",
+      "prediction": "C++",
+      "timestamp": "2025-01-30 23:31:25",
+      "response_time": 1.8290495872497559,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Graphs are used to represent",
+      "prediction": "data and relationships. They are commonly used in fields such as computer science, social sciences, biology, and engineering to model complex systems and interactions between entities or processes. Graphs can be two-dimensional (such as a simple graph where nodes are vertices connected by edges) or three-dimensional (in network analysis), allowing for detailed visualization of connections and clustering. They serve as visual representations of relationships in data sets, enabling easier understanding and analysis of complex information.",
+      "timestamp": "2025-01-30 23:31:29",
+      "response_time": 5.525334596633911,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "The first Newton law states that",
+      "prediction": "The First Law of Newton's Laws of Motion, often referred to as Newton's First Law or simply the law of inertia, states that \"An object at rest stays at rest and an object in motion stays in motion with a constant velocity\" unless acted upon by a net external force. This means that objects tend to remain in their state of rest (or, if they are moving, in motion) without any external forces acting on them.\n\nThis law is fundamental for understanding how the universe operates at a",
+      "timestamp": "2025-01-30 23:31:30",
+      "response_time": 6.297060012817383,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "The second Newton law states that",
+      "prediction": "A force causes an acceleration of a body, proportional to the mass of the body and in the direction of its motion or at right angles to both. This is known as the Second Law of Motion (or Newton's Second Law) and it is stated by Isaac Newton as follows:\n\nF = m * a\n\nwhere:\n- F is force\n- m is mass\n- a is acceleration\n\nThis law states that for every action there is an equal and opposite reaction, where force on one body causes",
+      "timestamp": "2025-01-30 23:31:32",
+      "response_time": 8.14319920539856,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    },
+    {
+      "text": "Leonardo Da Vinci live in",
+      "prediction": "Leonardo Da Vinci was an Italian polymath who lived between 1452 and 1519. He is widely recognized for his contributions to the fields of art, science, engineering, anatomy, music composition, and architecture. Although he did not actually have a specific birth date, there are numerous historical records that attribute Leonardo's life events to May or June of 1452. As such, it is likely that he was born on May 6, 14",
+      "timestamp": "2025-01-30 23:31:32",
+      "response_time": 7.997608661651611,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 1524.0
+    }
+  ],
+  "total_time": 18.86188530921936,
+  "avg_time_per_request": 0.8573584231463346,
+  "response_times": [
+    1.645000696182251,
+    1.6982216835021973,
+    5.01742696762085,
+    5.071570873260498,
+    6.072602987289429,
+    6.372517108917236,
+    7.871285676956177,
+    10.006397247314453,
+    9.970443725585938,
+    5.180033206939697,
+    5.4147560596466064,
+    9.057812452316284,
+    4.595318555831909,
+    10.975250959396362,
+    9.987098693847656,
+    1.8290495872497559,
+    5.525334596633911,
+    9.214308977127075,
+    7.7152721881866455,
+    6.297060012817383,
+    8.14319920539856,
+    7.997608661651611
+  ],
+  "vram_measurements": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_vram": {
+    "total": 4096.0,
+    "used": 1524.0,
+    "free": 2509.0
+  },
+  "final_vram": {
+    "total": 4096.0,
+    "used": 1524.0,
+    "free": 2509.0
+  }
+}

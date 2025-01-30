@@ -1,0 +1,263 @@
+{
+  "model": "llama3.2:1b",
+  "results": [
+    {
+      "text": "Once upon a time",
+      "prediction": "In a land far, far away, where the sun dipped into the horizon and painted the sky with hues of crimson and gold. A young girl named Luna lived in a small village nestled between two great mountains. She was known throughout the village for her extraordinary gift \u2013 the ability to communicate with animals.\n\nLuna's days were spent exploring the woods and fields around her home, listening to the whispers of the trees, and speaking with the creatures that inhabited them. She had always felt a deep connection to",
+      "timestamp": "2025-01-30 23:28:50",
+      "response_time": 18.164270639419556,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "In a world where",
+      "prediction": "I can start making things up or pulling from real-world concepts to create a narrative for you. Would you like to explore a fictional setting, a hypothetical scenario, or perhaps a thought experiment?",
+      "timestamp": "2025-01-30 23:28:42",
+      "response_time": 9.334411859512329,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "The future of technology",
+      "prediction": "The future of technology is exciting and rapidly evolving. Here are some potential trends and advancements that could shape the years to come:\n\n**Artificial Intelligence (AI)**\n\n1. Improved AI capabilities: AI will become more intelligent, autonomous, and able to learn from data.\n2. Increased adoption in industries: AI will be used across various sectors, including healthcare, finance, transportation, and education.\n3. Augmented intelligence: Human-AI collaboration will become more prevalent, leading to new forms of interaction",
+      "timestamp": "2025-01-30 23:28:43",
+      "response_time": 10.820103168487549,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Machine learning is",
+      "prediction": "Machine learning is a subfield of artificial intelligence (AI) that involves the use of algorithms and statistical models to enable computers to learn from data, make predictions or decisions, and improve their performance over time without being explicitly programmed.\n\nMachine learning allows computers to identify patterns, relationships, and trends in data, which enables them to make informed decisions, classify objects, recognize images, and perform other tasks that typically require human intelligence.\n\nThere are several types of machine learning, including:\n\n1. Supervised learning:",
+      "timestamp": "2025-01-30 23:28:43",
+      "response_time": 10.872783422470093,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Artificial intelligence will",
+      "prediction": "Artificial intelligence (AI) is a rapidly evolving field that holds great promise for transforming various aspects of our lives. Here are some potential applications and advancements that AI might bring:\n\n1. **Improved decision-making**: AI can analyze vast amounts of data, identify patterns, and make predictions to support better decision-making in fields like healthcare, finance, and logistics.\n2. **Enhanced customer experiences**: AI-powered chatbots and virtual assistants can provide personalized support, answer frequently asked questions, and offer tailored recommendations",
+      "timestamp": "2025-01-30 23:28:48",
+      "response_time": 15.218046188354492,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Quantum computing is",
+      "prediction": "Quantum computing is a revolutionary technology that uses the principles of quantum mechanics to perform calculations and operations on data. It's a new paradigm for computing that has the potential to solve complex problems that are currently unsolvable or require an unfeasible amount of time to solve using traditional computers.\n\nUnlike classical computers, which use bits to store and process information, quantum computers use quantum-mechanical phenomena such as superposition, entanglement, and interference to perform calculations. These properties allow quantum computers to process",
+      "timestamp": "2025-01-30 23:28:48",
+      "response_time": 15.279524087905884,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Climate change is",
+      "prediction": "Climate change is a complex and multifaceted issue. Here's a summary:\n\nClimate change refers to the long-term warming of the planet due to an increase in average global temperature. This is primarily caused by human activities that release greenhouse gases, such as carbon dioxide (CO2), methane (CH4), and water vapor, into the atmosphere.\n\nThe main causes of climate change are:\n\n1. **Burning fossil fuels**: The burning of coal, oil, and gas for energy releases large amounts of",
+      "timestamp": "2025-01-30 23:28:46",
+      "response_time": 13.633083820343018,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Renewable energy is",
+      "prediction": "Renewable energy is a type of energy that comes from natural resources that can be replenished over time, such as sunlight, wind, rain, and geothermal heat. It is a sustainable and environmentally friendly alternative to fossil fuels, which are finite and contribute to climate change.\n\nThere are many types of renewable energy, including:\n\n1. Solar energy: Energy generated from the sun's rays, either through photovoltaic (PV) panels or solar thermal systems.\n2. Wind energy: Energy generated",
+      "timestamp": "2025-01-30 23:28:50",
+      "response_time": 18.078306198120117,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "The history of the world",
+      "prediction": "What a monumental task you've asked of me. The history of the world spans millions of years, countless civilizations, and diverse cultures. I'll try to provide an overview, but please note that this will be a condensed and simplified version.\n\n**Prehistory (Before 3000 BCE)**\n\nThe Earth's history is divided into several eras:\n\n1. **Precambrian** (4.5 billion - 541 million years ago): The earliest stages of the Earth's formation, with the",
+      "timestamp": "2025-01-30 23:28:46",
+      "response_time": 13.638988971710205,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "My mother is a doctor",
+      "prediction": "That's impressive and admirable. Being a doctor can be a challenging yet rewarding career. What area of medicine does your mother specialize in, if you don't mind me asking? Is she working in a hospital or private practice?",
+      "timestamp": "2025-01-30 23:28:42",
+      "response_time": 9.211925268173218,
+      "vram_delta": 650.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "My father is a teacher",
+      "prediction": "That's wonderful! Being a teacher can be such a rewarding profession, shaping young minds and inspiring future generations. What specific aspects of being a teacher do you enjoy the most? Is there something in particular that makes your job or family life more challenging or fulfilling? I'm here to listen and offer any support or advice if needed.",
+      "timestamp": "2025-01-30 23:28:51",
+      "response_time": 8.876973867416382,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "One day I bought a red",
+      "prediction": "It seems like you're starting our conversation with an interesting statement. Would you like to continue exploring what \"one day\" might have led you to say that, or is there something specific on your mind that you'd like to talk about?",
+      "timestamp": "2025-01-30 23:28:50",
+      "response_time": 8.174990892410278,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Lisbon is the capital of",
+      "prediction": "I'm not aware of any major cities named Lisbon that are commonly recognized as the capital. However, I can tell you that Lisbon was once the capital of Portugal. It has been the capital since the 12th century and is still an important city in Portugal today. Would you like to know more about Lisbon's history or its role in Portugal?",
+      "timestamp": "2025-01-30 23:28:53",
+      "response_time": 9.821193933486938,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Washington is the capital of",
+      "prediction": "Washington is the capital of the state of Washington in the United States.",
+      "timestamp": "2025-01-30 23:28:51",
+      "response_time": 7.8760950565338135,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "The capital of France is",
+      "prediction": "Paris.",
+      "timestamp": "2025-01-30 23:28:51",
+      "response_time": 4.673892259597778,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Ancient Rome was a",
+      "prediction": "A vast and influential civilization that thrived from the 8th to the 5th century AD. Ancient Rome was a republic ruled by elected representatives called senators, with the emperor serving as the supreme authority in times of war or other extraordinary circumstances.",
+      "timestamp": "2025-01-30 23:28:53",
+      "response_time": 6.56098747253418,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Print function in Python is used to",
+      "prediction": "The `print()` function in Python is used to output text or values to the screen. It is a fundamental part of Python's syntax and allows you to easily share data, instructions, or messages with other parts of your program.\n\nWhen you use the `print()` function, it will print its arguments (if any) to the console or standard output. For example:\n\n```python\nprint(\"Hello, World!\")\n```\n\nThis would output: `Hello, World!` to the screen.\n\nThe",
+      "timestamp": "2025-01-30 23:28:55",
+      "response_time": 7.451120853424072,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "The most popular programming language is",
+      "prediction": "It's difficult to determine a single most popular programming language, as it can vary depending on the source, context, and time frame. However, I can provide some insights based on various reports and studies.\n\nAccording to a survey conducted by TIOBE Index in 2023, the top 5 most popular programming languages are:\n\n1. JavaScript\n2. Python\n3. Java\n4. C++\n5. C#\n\nAnother report by Stack Overflow's 2023 Developer Survey found that the",
+      "timestamp": "2025-01-30 23:28:55",
+      "response_time": 7.77672553062439,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Graphs are used to represent",
+      "prediction": "Charts are used to represent information, such as data or statistics, in a way that is easy to understand and visualize. They can be used to show trends, patterns, and relationships between different variables. Charts can take many forms, including line graphs, bar graphs, pie charts, and scatter plots.\n\nIn particular, charts are often used to:\n\n* Represent statistical data, such as population growth or economic indicators\n* Visualize large amounts of data, making it easier to identify trends and patterns\n*",
+      "timestamp": "2025-01-30 23:28:57",
+      "response_time": 6.854489803314209,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "The first Newton law states that",
+      "prediction": "The first Newton's law of motion, also known as the Law of Inertia, states that \"the more mass an object has, the greater its tendency will be to remain at rest or to continue moving in a straight line at a constant velocity, unless acted upon by an external force.\"",
+      "timestamp": "2025-01-30 23:28:57",
+      "response_time": 6.738697052001953,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "The second Newton law states that",
+      "prediction": "...force (F) is equal to the mass (m) of an object multiplied by its acceleration (a), i.e., F = ma. This is often expressed mathematically as F = ma, where a is in units of meters per second squared (m/s^2).",
+      "timestamp": "2025-01-30 23:28:56",
+      "response_time": 5.106027126312256,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    },
+    {
+      "text": "Leonardo Da Vinci live in",
+      "prediction": "Leonardo da Vinci lived in various places throughout his life, but some of the most notable locations include:\n\n1. Florence, Italy (1482-1492): Da Vinci was born and raised in Florence, a city in central Italy, where he studied art and engineering. He worked as an artist and engineer in Florence for several years before moving to Milan.\n2. Milan, Italy (1492-1519): In 1492, Da Vinci moved to Milan, which became his home and",
+      "timestamp": "2025-01-30 23:28:58",
+      "response_time": 7.7030181884765625,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2174.0
+    }
+  ],
+  "total_time": 26.060747623443604,
+  "avg_time_per_request": 1.1845794374292546,
+  "response_times": [
+    9.334411859512329,
+    9.211925268173218,
+    10.820103168487549,
+    10.872783422470093,
+    13.633083820343018,
+    13.638988971710205,
+    15.218046188354492,
+    15.279524087905884,
+    8.174990892410278,
+    18.164270639419556,
+    18.078306198120117,
+    8.876973867416382,
+    4.673892259597778,
+    7.8760950565338135,
+    6.56098747253418,
+    9.821193933486938,
+    7.451120853424072,
+    7.77672553062439,
+    5.106027126312256,
+    6.854489803314209,
+    6.738697052001953,
+    7.7030181884765625
+  ],
+  "vram_measurements": [
+    650.0,
+    650.0,
+    650.0,
+    650.0,
+    650.0,
+    650.0,
+    650.0,
+    650.0,
+    0.0,
+    650.0,
+    650.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_vram": {
+    "total": 4096.0,
+    "used": 1524.0,
+    "free": 2509.0
+  },
+  "final_vram": {
+    "total": 4096.0,
+    "used": 2174.0,
+    "free": 1859.0
+  }
+}

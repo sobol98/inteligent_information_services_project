@@ -50,7 +50,7 @@ class ModelManager:
         """Load model during application startup"""
         try:
             quantization_config = BitsAndBytesConfig(
-                load_in_4bit=True, 
+                load_in_4bit=False, 
                 bnb_4bit_quant_type='nf4', 
                 bnb_4bit_compute_dtype=torch.bfloat16
             )
@@ -71,7 +71,7 @@ class ModelManager:
             self.logger.error(f"Model loading failed: {e}")
             raise
     
-    async def predict_batch(self, inputs: List[str], max_length: int = 30):
+    async def predict_batch(self, inputs: List[str], max_length: int = 100):
         """Generate predictions for a batch of inputs"""
         input_tokens = self.tokenizer(inputs, padding=True, return_tensors='pt').to(self.device)
         

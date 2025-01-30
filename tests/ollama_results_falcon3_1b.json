@@ -1,0 +1,263 @@
+{
+  "model": "falcon3:1b",
+  "results": [
+    {
+      "text": "Once upon a time",
+      "prediction": "Once upon a time, in the heart of the enchanted forest, there lived a group of mystical creatures known as the Lumina. These ethereal beings had shimmering skin that glowed with an otherworldly light, and their wings shimmered like precious gems under the sun's rays. The Lumina were renowned for their wisdom, kindness, and unwavering courage in the face of darkness.\n\nAmong them was Elara, a young and passionate Lumina who dreamt of one day leading her tribe to victory against the",
+      "timestamp": "2025-01-30 23:29:55",
+      "response_time": 5.941897630691528,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "In a world where",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:53",
+      "response_time": 2.9565534591674805,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "The future of technology",
+      "prediction": "Technology has a rapidly evolving future, driven by several key trends. Here are some insights into how these factors could shape the technological landscape in the coming years:\n\n1. **Artificial Intelligence and Machine Learning**: AI is becoming increasingly sophisticated, capable of learning from large datasets and performing tasks that typically require human intelligence. This could lead to advancements in automation, personalized services, and complex decision-making processes across various industries.\n\n2. **Quantum Computing**: Quantum computers are expected to revolutionize",
+      "timestamp": "2025-01-30 23:29:55",
+      "response_time": 5.863595962524414,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Machine learning is",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:52",
+      "response_time": 2.6679859161376953,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Artificial intelligence will",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:52",
+      "response_time": 2.668186664581299,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Quantum computing is",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:56",
+      "response_time": 6.043530464172363,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Climate change is",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:53",
+      "response_time": 3.031597375869751,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Renewable energy is",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:52",
+      "response_time": 2.813129186630249,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "The history of the world",
+      "prediction": "The history of the world is a vast and intricate tapestry woven from countless threads, each representing significant events, movements, cultures, and innovations. This narrative encompasses human civilizations across millennia, beginning with some of the earliest known societies, progressing through various dynastic eras, religious epochs, scientific advancements, cultural exchanges, conflicts, and finally culminating in modern times.\n\nThe history begins with our species Homo sapiens, who are thought to have evolved around 200,000 years ago. From",
+      "timestamp": "2025-01-30 23:29:57",
+      "response_time": 7.119507312774658,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "My mother is a doctor",
+      "prediction": "That's wonderful to hear! If you have any questions or would like to discuss anything related to your mother's profession, feel free to ask. Doctors play an important role in society by providing medical care and helping people recover from illnesses or injuries. They undergo extensive education and training to become experts in their fields and are dedicated to improving the health of individuals and communities. If you have any concerns about your own health or well-being, it might be helpful to speak with a healthcare professional who",
+      "timestamp": "2025-01-30 23:29:57",
+      "response_time": 7.302774667739868,
+      "vram_delta": 208.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "My father is a teacher",
+      "prediction": "Thank you for sharing your family background. As a dedicated teacher, I understand the importance of education and the impact it can have on individuals and society as a whole. Teaching is not just about imparting knowledge; it's about nurturing curiosity, fostering critical thinking skills, and inspiring future generations to pursue their passions and contribute positively to the world.",
+      "timestamp": "2025-01-30 23:29:59",
+      "response_time": 6.356756925582886,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "One day I bought a red",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:56",
+      "response_time": 3.374089241027832,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Lisbon is the capital of",
+      "prediction": "Lisbonne, not Lisbon. If you're asking about the capital city in Portugal, it would be Lisbon. The name \"Lisbonne\" is actually a misspelling or corruption of \"Lisbon,\" but it doesn't seem to refer to any specific town or location in Portugal as I know of.",
+      "timestamp": "2025-01-30 23:29:59",
+      "response_time": 6.002021074295044,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Washington is the capital of",
+      "prediction": "The United States. However, it's important to note that Washington refers to both a city and a state within the country. The **capital** of the United States is a federal district located in the eastern part of the country, specifically in Washington, D.C., which stands for the District of Columbia. Washington, D.C., became the nation's capital following the signing of the Residence Act in 1800 to provide a permanent home for the U.S.",
+      "timestamp": "2025-01-30 23:30:01",
+      "response_time": 8.67066240310669,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "The capital of France is",
+      "prediction": "Paris",
+      "timestamp": "2025-01-30 23:29:57",
+      "response_time": 4.443240165710449,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Ancient Rome was a",
+      "prediction": "Ancient Rome was a complex and influential civilization that lasted from 753 BC to 476 AD. It began as a monarchy but evolved into an empire, eventually covering much of Europe, North Africa, and the Middle East. Key aspects of ancient Roman society included its political structure, legal system, architecture, art, language, culture, religion, and military prowess.\n\nRome's rise to power was marked by conquests that established Roman provinces across the Mediterranean world. The empire was",
+      "timestamp": "2025-01-30 23:30:02",
+      "response_time": 6.027510166168213,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Print function in Python is used to",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:59",
+      "response_time": 3.2471237182617188,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "The most popular programming language is",
+      "prediction": "C++, often referred to as C++ or simply C++ for short, is one of the most popular programming languages in the world. Its popularity stems from several key factors:\n\n1. **Versatility**: It can be used for a wide range of applications including system software, embedded systems, game development, and high-performance computing.\n\n2. **Object-Oriented Programming (OOP) Support**: C++ is fully object-oriented, providing powerful tools such as",
+      "timestamp": "2025-01-30 23:30:03",
+      "response_time": 6.95185923576355,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Graphs are used to represent",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:59",
+      "response_time": 3.1260435581207275,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "The first Newton law states that",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:59",
+      "response_time": 2.2424442768096924,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "The second Newton law states that",
+      "prediction": "",
+      "timestamp": "2025-01-30 23:29:59",
+      "response_time": 2.251523494720459,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    },
+    {
+      "text": "Leonardo Da Vinci live in",
+      "prediction": "As an AI language model, I cannot provide a factual answer as to what Leonardo da Vinci lived in. However, based on historical records, Leonardo was born in 1452 and died in 1519, which means he lived during the Italian Renaissance period.\n\nLeonardo da Vinci is known for his contributions to various fields such as art, science, engineering, architecture, music, mathematics, literature, geology, astronomy, botany, writing, history, and cartography. His",
+      "timestamp": "2025-01-30 23:30:03",
+      "response_time": 5.760318756103516,
+      "vram_delta": 0.0,
+      "vram_total": 4096.0,
+      "vram_used": 2382.0
+    }
+  ],
+  "total_time": 13.47186827659607,
+  "avg_time_per_request": 0.6123576489361849,
+  "response_times": [
+    2.6679859161376953,
+    2.668186664581299,
+    2.813129186630249,
+    2.9565534591674805,
+    3.031597375869751,
+    5.863595962524414,
+    5.941897630691528,
+    6.043530464172363,
+    3.374089241027832,
+    7.119507312774658,
+    7.302774667739868,
+    4.443240165710449,
+    6.002021074295044,
+    6.356756925582886,
+    3.2471237182617188,
+    3.1260435581207275,
+    2.2424442768096924,
+    2.251523494720459,
+    8.67066240310669,
+    6.027510166168213,
+    6.95185923576355,
+    5.760318756103516
+  ],
+  "vram_measurements": [
+    208.0,
+    208.0,
+    208.0,
+    208.0,
+    208.0,
+    208.0,
+    208.0,
+    208.0,
+    0.0,
+    208.0,
+    208.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_vram": {
+    "total": 4096.0,
+    "used": 2174.0,
+    "free": 1859.0
+  },
+  "final_vram": {
+    "total": 4096.0,
+    "used": 2382.0,
+    "free": 1651.0
+  }
+}
