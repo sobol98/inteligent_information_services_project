@@ -14,7 +14,8 @@ class OllamaClient:
         self.models = {
             1: "llama3.2:1b",
             2: "falcon3:1b",
-            3: "qwen2:1.5b"
+            3: "qwen2:1.5b",
+            4: "mapler/gpt2:latest"
         }
         self.current_model = self.models[1]
         self.response_times = []
@@ -149,8 +150,9 @@ async def main():
         # 1 - Llama 3.2:1B
         # 2 - Falcon 3:1B
         # 3 - Qwen 2:1.5B
+        # 4 - GPT-2
         
-        model_id = 3
+        model_id = 4
     
         print(f"\nTesting model: {client.models[model_id]}")
         

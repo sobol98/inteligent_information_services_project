@@ -17,10 +17,11 @@ MODEL_NAMES = {
     5: 'gpt2-large',
     6: 'tiiuae/falcon-rw-1b',  # compare with ollama
     7: 'meta-llama/Llama-3.2-1B', # compare with ollama
-    8: 'Qwen/Qwen2.5-1.5B', # compare with ollama    
+    8: 'Qwen/Qwen2.5-1.5B', # compare with ollama   .... dont work  
+    9: 'deepseek-ai/DeepSeek-R1'
 }
 
-MODEL_NAME = MODEL_NAMES[8]
+MODEL_NAME = MODEL_NAMES[4]
 
 
 # Global model manager

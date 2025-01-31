@@ -1,0 +1,101 @@
+{
+  "model_name": "tiiuae/falcon-rw-1b",
+  "perplexity_scores": [
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity,
+    Infinity
+  ],
+  "bleu_scores": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "samples": [
+    {
+      "original": " Robert Boulter is an English film , television and theatre actor . He had a guest @-@ starring role on the television series The Bill in 2000 . This was followed by a starring role in the play Herons written by Simon Stephens , which was performed in 2001 at the Royal Court Theatre . He had a guest role in the television series Judge John Deed in 2002 . In 2004 Boulter landed a role as \" Craig \" in the episode \" Teddy 's Story \" of the television series The Long Firm ; he starred alongside actors Mark Strong and Derek Jacobi . He was cast in the 2005 theatre productions of the Philip Ridley play Mercury Fur , which was performed at the Drum Theatre in Plymouth and the Menier Chocolate Factory in London . He was directed by John Tiffany and starred alongside Ben Whishaw , Shane Zaza , Harry Kent , Fraser Ayres , Sophie Stanton and Dominic Hall . \n",
+      "prompt": "Robert Boulter is an English",
+      "generated": "artist known for his innovative paintings and sculptures. He began creating large-scale works in the mid 1960s, soon after he discovered that a group of American artists were selling copies of Jackson Pollock\u2019s signature drip style to young British painters \u2013 including David Hockney.\nBoulter had studied physics at Oxford University but was disappointed when it came time to apply for university jobs. Though still enthusiastic about art, he started attending workshops where other artists discussed what would become one of history",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    },
+    {
+      "original": " In 2006 , Boulter starred alongside Whishaw in the play Citizenship written by Mark Ravenhill . He appeared on a 2006 episode of the television series , Doctors , followed by a role in the 2007 theatre production of How to Curse directed by Josie Rourke . How to Curse was performed at Bush Theatre in the London Borough of Hammersmith and Fulham . Boulter starred in two films in 2008 , Daylight Robbery by filmmaker Paris Leonti , and Donkey Punch directed by Olly Blackburn . In May 2008 , Boulter made a guest appearance on a two @-@ part episode arc of the television series Waking the Dead , followed by an appearance on the television series Survivors in November 2008 . He had a recurring role in ten episodes of the television series Casualty in 2010 , as \" Kieron Fletcher \" . Boulter starred in the 2011 film Mercenaries directed by Paris Leonti . \n",
+      "prompt": "In 2006 , Boulter starred",
+      "generated": "In 2006, Boulter starred in a movie called \" The Dark Side of the Moon\".\n- [1:49] When he's not busy being an astronaut, Dr. Scott Kelly is trying to figure out how best to get his wife back (as she seems more interested now that there are children).I would like to have my mommy and daddy help their little girl make her christmas dinner which will be turkey with all the trimmings and other stuff needed for this meal also they can bring over some",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    },
+    {
+      "original": " In 2000 Boulter had a guest @-@ starring role on the television series The Bill ; he portrayed \" Scott Parry \" in the episode , \" In Safe Hands \" . Boulter starred as \" Scott \" in the play Herons written by Simon Stephens , which was performed in 2001 at the Royal Court Theatre . A review of Boulter 's performance in The Independent on Sunday described him as \" horribly menacing \" in the role , and he received critical reviews in The Herald , and Evening Standard . He appeared in the television series Judge John Deed in 2002 as \" Addem Armitage \" in the episode \" Political Expediency \" , and had a role as a different character \" Toby Steele \" on The Bill . \n",
+      "prompt": "In 2000 Boulter had a",
+      "generated": "great idea and started up The Stork. I am not an expert in fertility, but there are so many issues that can have an impact on child-bearing whether it\u2019s infertility or miscarriage etc., and these days the chances of pregnancy success seem to be greatly reduced as couples try every trick they know how without much hope in reaching full term for their first baby\u2026\nBoulter has been able to find some answers though by using something called \u2018fertility monitoring\u2019.. It",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    },
+    {
+      "original": " He had a recurring role in 2003 on two episodes of The Bill , as character \" Connor Price \" . In 2004 Boulter landed a role as \" Craig \" in the episode \" Teddy 's Story \" of the television series The Long Firm ; he starred alongside actors Mark Strong and Derek Jacobi . Boulter starred as \" Darren \" , in the 2005 theatre productions of the Philip Ridley play Mercury Fur . It was performed at the Drum Theatre in Plymouth , and the Menier Chocolate Factory in London . He was directed by John Tiffany and starred alongside Ben Whishaw , Shane Zaza , Harry Kent , Fraser Ayres , Sophie Stanton and Dominic Hall . Boulter received a favorable review in The Daily Telegraph : \" The acting is shatteringly intense , with wired performances from Ben Whishaw ( now unrecognisable from his performance as Trevor Nunn 's Hamlet ) , Robert Boulter , Shane Zaza and Fraser Ayres . \" The Guardian noted , \" Ben Whishaw and Robert Boulter offer tenderness amid the savagery . \" \n",
+      "prompt": "He had a recurring role",
+      "generated": "on \"The Simpsons\" as an obnoxious, overweight clown.\nIt's been pretty much confirmed that the actor will be reprising his old character in Season 25 of 'The Simpsons'... but is this too weird?\nThis video has over 12 million views and counting:You can play online games at any time from anywhere with just one web browser! Play your favorite free flash game right now or check out cool new ones we've found for you.. Try to get through each level by making",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    },
+    {
+      "original": " In 2006 Boulter starred in the play Citizenship written by Mark Ravenhill . The play was part of a series which featured different playwrights , titled Burn / Chatroom / Citizenship . In a 2006 interview , fellow actor Ben Whishaw identified Boulter as one of his favorite co @-@ stars : \" I loved working with a guy called Robert Boulter , who was in the triple bill of Burn , Chatroom and Citizenship at the National . He played my brother in Mercury Fur . \" He portrayed \" Jason Tyler \" on the 2006 episode of the television series , Doctors , titled \" Something I Ate \" . Boulter starred as \" William \" in the 2007 production of How to Curse directed by Josie Rourke . How to Curse was performed at Bush Theatre in the London Borough of Hammersmith and Fulham . In a review of the production for The Daily Telegraph , theatre critic Charles Spencer noted , \" Robert Boulter brings a touching vulnerability to the stage as William . \" \n",
+      "prompt": "In 2006 Boulter starred in",
+      "generated": "the film \u201cJourney to Paradise\u201d about his experiences as a young man growing up on Maui. His first surf trip was an eventful one \u2013 he did not die!\nBOULTER: The two people that were with me, my father and brother [who died of cancer] both told me\u2026they said if you have this life experience then maybe it will help somehow someday. And I just felt like we had been given something pretty special because no other child or adult",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    },
+    {
+      "original": " Boulter starred in two films in 2008 , Daylight Robbery by filmmaker Paris Leonti , and Donkey Punch directed by Olly Blackburn . Boulter portrayed a character named \" Sean \" in Donkey Punch , who tags along with character \" Josh \" as the \" quiet brother ... who hits it off with Tammi \" . Boulter guest starred on a two @-@ part episode arc \" Wounds \" in May 2008 of the television series Waking the Dead as character \" Jimmy Dearden \" . He appeared on the television series Survivors as \" Neil \" in November 2008 . He had a recurring role in ten episodes of the television series Casualty in 2010 , as \" Kieron Fletcher \" . He portrayed an emergency physician applying for a medical fellowship . He commented on the inherent difficulties in portraying a physician on television : \" Playing a doctor is a strange experience . Pretending you know what you 're talking about when you don 't is very bizarre but there are advisers on set who are fantastic at taking you through procedures and giving you the confidence to stand there and look like you know what you 're doing . \" Boulter starred in the 2011 film Mercenaries directed by Paris Leonti . \n",
+      "prompt": "Boulter starred in two films",
+      "generated": "with Anthony Quinn as well \u2013 The Magnificent Seven and the TV series. He also had a number of memorable appearances on film, including his role opposite Michael Caine in Dirty Rotten Scoundrels (1988)\nIn 2012 Bobby was diagnosed with prostate cancer at stage 2b; though he underwent surgery it spread to other parts of his body. His wife, actress Deborah Gibson has revealed that because they have been together for so long she believed there would be no hard times ahead but sadly this",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    },
+    {
+      "original": " Du Fu ( Wade \u2013 Giles : Tu Fu ; Chinese : \u675c\u752b ; 712 \u2013 770 ) was a prominent Chinese poet of the Tang dynasty . Along with Li Bai ( Li Po ) , he is frequently called the greatest of the Chinese poets . His greatest ambition was to serve his country as a successful civil servant , but he proved unable to make the necessary accommodations . His life , like the whole country , was devastated by the An Lushan Rebellion of 755 , and his last 15 years were a time of almost constant unrest . \n",
+      "prompt": "Du Fu ( Wade \u2013",
+      "generated": "Dufu), also known as the Yellow Emperor, is a Chinese emperor or dynasty in what is now China. He was an ancestor of the Ming and Qing dynasties that controlled most of mainland China at this time.[1]\nHe is considered one of ancient history's greatest rulers..[2]. The following are some examples:I\u2019m on a mission to make my life more fun by playing silly games with people I love! And for our latest game night we played",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    },
+    {
+      "original": " Although initially he was little @-@ known to other writers , his works came to be hugely influential in both Chinese and Japanese literary culture . Of his poetic writing , nearly fifteen hundred poems have been preserved over the ages . He has been called the \" Poet @-@ Historian \" and the \" Poet @-@ Sage \" by Chinese critics , while the range of his work has allowed him to be introduced to Western readers as \" the Chinese Virgil , Horace , Ovid , Shakespeare , Milton , Burns , Wordsworth , B\u00e9ranger , Hugo or Baudelaire \" . \n",
+      "prompt": "Although initially he was little",
+      "generated": "more than an observer, with the exception of a single sentence in \"The Shadow,\" James Joyce had become something like his own creation. In fact, one might say that until recently it has been difficult to identify what is original about him\u2014much less determine whether any such thing as \u201cJoyce\u201d can be identified at all. The poet himself would probably have found this view too simplistic and dogmatic; but neither does anyone else yet seem inclined to question its validity: when critics begin discussing",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    },
+    {
+      "original": " Traditional Chinese literary criticism emphasized the life of the author when interpreting a work , a practice which Burton Watson attributes to \" the close links that traditional Chinese thought posits between art and morality \" . Since many of Du Fu 's poems feature morality and history , this practice is particularly important . Another reason , identified by the Chinese historian William Hung , is that Chinese poems are typically concise , omitting context that might be relevant , but which an informed contemporary could be assumed to know . For modern Western readers , \" The less accurately we know the time , the place and the circumstances in the background , the more liable we are to imagine it incorrectly , and the result will be that we either misunderstand the poem or fail to understand it altogether \" . Stephen Owen suggests a third factor particular to Du Fu , arguing that the variety of the poet 's work required consideration of his whole life , rather than the \" reductive \" categorizations used for more limited poets . \n",
+      "prompt": "Traditional Chinese literary criticism emphasized",
+      "generated": "the unique characteristics of each play. For example, when a new genre is introduced into performance art (such as in opera), some critics suggested that it had to be accepted \"for what it is\" and should not try to fit its form to traditional models; others pointed out how much more complex was this new form than poetry or prose. In another case, when an adaptation from film became popular among contemporary choral music performances (\"The New Song\", 1996) at least one critic insisted on retaining most",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    },
+    {
+      "original": " Most of what is known of Du Fu 's life comes from his poems . His paternal grandfather was Du Shenyan , a noted politician and poet during the reign of Empress Wu . Du Fu was born in 712 ; the exact birthplace is unknown , except that it was near Luoyang , Henan province ( Gong county is a favourite candidate ) . In later life , he considered himself to belong to the capital city of Chang 'an , ancestral hometown of the Du family . \n",
+      "prompt": "Most of what is known",
+      "generated": "about the history and early years of Viginia\nIsland (also Virginia) comes from a report by Captain John Smith in 1608. In his book, The Plantations of New England, which became an important source for historians throughout America to document colonial settlement patterns that were not recorded elsewhere at first, he describes how Virginia Island was settled \"by some one or more companies\" after being claimed by English settlers as they landed along with the King's men on October 12th, 1585,",
+      "perplexity": Infinity,
+      "bleu": 0.0
+    }
+  ],
+  "avg_perplexity": Infinity,
+  "avg_bleu": 0.0
+}

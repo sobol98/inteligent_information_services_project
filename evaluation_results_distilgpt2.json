@@ -1,0 +1,43 @@
+{
+  "model_name": "distilgpt2",
+  "scores": [
+    Infinity,
+    Infinity
+  ],
+  "bleu_scores": [
+    0.012695948084710694,
+    0.010175552214705043
+  ],
+  "vram_usage": [
+    8.125,
+    0.0
+  ],
+  "inference_times": [
+    0.7528972709988011,
+    0.5668395210086601
+  ],
+  "samples": [
+    {
+      "prompt": "= = =",
+      "generated": "( ) . '#FALSE': [ , 1 ] }\nThe above method allows you to remove the class from your function. You can set it with any argument of a given type, or when using different methods in order to avoid repeating its behaviour until an instance is added:\nclass UserName { public String username = \"Johnston\" ; if (!username) { console.log('User name : \". + title ); } else { console..log(\"Password\": \"$username/example",
+      "score": Infinity,
+      "bleu": 0.012695948084710694,
+      "inference_time": 0.7528972709988011,
+      "vram_used": 8.125
+    },
+    {
+      "prompt": "= = =",
+      "generated": "{ \" : \" : \" : \" , \" : \" } }, // The function returns a value between the specified values. Returns '\n\"\nThe type of object used to calculate is defined by:\n/ <div> / . This method takes care of any string parameter and doesn't need arguments, but it's not necessary for more than one argument (or we can specify an array with multiple elements):\n/ <div> / . this will return either 1 or 2 - you define",
+      "score": Infinity,
+      "bleu": 0.010175552214705043,
+      "inference_time": 0.5668395210086601,
+      "vram_used": 0.0
+    }
+  ],
+  "avg_score": Infinity,
+  "avg_bleu": 0.011435750149707869,
+  "avg_vram": 4.0625,
+  "avg_inference_time": 0.6598683960037306,
+  "max_vram": 8.125,
+  "min_vram": 0.0
+}

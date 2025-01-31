@@ -17,9 +17,9 @@ from transformers import (
 )
 
 
-BATCH_SIZE = 5
-MAX_QUEUE_SIZE = 20
-BATCH_WAIT_TIMEOUT = 5.0
+BATCH_SIZE = 10
+MAX_QUEUE_SIZE = 100
+BATCH_WAIT_TIMEOUT = 1.0
 
 class ModelManager:
     def __init__(
@@ -49,15 +49,27 @@ class ModelManager:
     async def load_model(self):
         """Load model during application startup"""
         try:
-            quantization_config = BitsAndBytesConfig(
-                load_in_4bit=False, 
-                bnb_4bit_quant_type='nf4', 
-                bnb_4bit_compute_dtype=torch.bfloat16
-            )
+            # quantization_config = BitsAndBytesConfig(
+            #     load_in_4bit=False, 
+            #     bnb_4bit_quant_type='nf4', 
+            #     bnb_4bit_compute_dtype=torch.bfloat16,
+            # )
+            
+            # quantization_config = BitsAndBytesConfig(
+            #     load_in_8bit=True, 
+
+            # )
+            # quantization_config = BitsAndBytesConfig(
+            #     load_in_4bit=True,
+            #     bnb_4bit_quant_type='nf4',
+            #     bnb_4bit_compute_dtype=torch.float16,  # float16 zamiast bfloat16
+            #     bnb_4bit_use_double_quant=True,
+            # )
 
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_name,
-                quantization_config=quantization_config,
+                torch_dtype=torch.float16,
+                # quantization_config=quantization_config,
                 device_map=self.device,
             )
             self.model.eval()
